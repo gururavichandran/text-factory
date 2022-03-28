@@ -25,3 +25,6 @@ Q&A:
 - Tagtog
 - LightTag
 - Prodigy
+
+## Competitions
+- Message Understanding Conference(NER & Co-reference)
