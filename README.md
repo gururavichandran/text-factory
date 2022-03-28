@@ -28,3 +28,12 @@ Q&A:
 
 ## Competitions
 - Message Understanding Conference(NER & Co-reference)
+
+## Evaluation Metrics
+- Precision
+- Recall
+- F-Measure
+- Levenstein distance
+- Fuzzy Match
+- Token overlap
+- Under/Over prediction
