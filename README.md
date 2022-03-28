@@ -29,6 +29,17 @@ Q&A:
 ## Competitions
 - Message Understanding Conference(NER & Co-reference)
 
+## Platforms/Frameworks
+> Basic
+- Spacy
+- Gensim
+- Natural Language Toolkit
+
+> NER
+- Spacy
+- Apache NLP 
+- GATE
+
 ## Evaluation Metrics
 - Precision
 - Recall
