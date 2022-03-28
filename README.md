@@ -46,6 +46,7 @@ Q&A:
 - Precision
 - Recall
 - F-Measure
+- Intersection over Union
 - Levenstein distance
 - Fuzzy Match
 - Token overlap
