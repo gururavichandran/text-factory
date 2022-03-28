@@ -6,6 +6,8 @@ Factory with libraries for text processing , mining , analytics and modelling fo
 - Named Entity Recognition
 - Sentiment Analysis
 - Coreference resolution
+- Question Answering
+- Chatbots
 
 ## Models available:
 - BERT
@@ -48,3 +50,10 @@ Q&A:
 - Fuzzy Match
 - Token overlap
 - Under/Over prediction
+
+## Terms
+- Temporal expressions
+- Numerical expressions
+- Ontology
+- Coreference
+
