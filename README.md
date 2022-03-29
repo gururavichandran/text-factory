@@ -8,6 +8,8 @@ Factory with libraries for text processing , mining , analytics and modelling fo
 - Coreference resolution
 - Question Answering
 - Chatbots
+- PDF Extraction
+- Web Scraping
 
 ## Models available:
 - BERT
@@ -35,7 +37,7 @@ Q&A:
 > Basic
 - Spacy
 - Gensim
-- Natural Language Toolkit
+- Natural Language Tool Kit
 
 > NER
 - Spacy
