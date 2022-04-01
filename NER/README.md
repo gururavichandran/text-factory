@@ -30,3 +30,17 @@ NER can be used in developing algorithms for recommender systems that make sugge
 
 > **Simplifying Customer Support:**
 Usually, a company gets tons of customer complaints and feedback on a daily basis, and going through each one of them and recognizing the concerned parties is not an easy task. Using NER we can recognize relevant entities in customer complaints and feedback such as Product specifications, department, or company branch location so that the feedback is classified accordingly and forwarded to the appropriate department responsible for the identified product.
+
+
+### Q&A
+
+> Should stop words be removed in NER.
+It depends how you recognise the entities.
+
+If you do a simple gazetteer lookup, then it could be faster, as you have fewer tokens to deal with.
+
+However, if you use contextual rules, then stop words might be vital to identify certain contexts, so by removing stop words you lose information about the entity's environment. For example, if [work] at {organisation} is a rule you use to identify companies etc, then this wouldn't work if you take out the at.
+
+You will also have problems if the stop words are part of an entity, eg the town Stoke-on-Trent. If hyphens are used to split tokens, then you won't be able to recognise it if the on is discarded.
+
+In general I think stop words should mostly be kept; apart from information retrieval where they are not all that useful in an inverted index you will always lose something. If stop words were really pointless, then they would have been discarded from languages a long time ago. In the old days they were a useful way of reducing the demand on computational resources without losing too much, but nowadays I would say this is not really a problem anymore.
